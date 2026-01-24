@@ -1,0 +1,6 @@
+[Unit]
+Description=DuckDNS IP-change updater
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/duckdns-update.sh

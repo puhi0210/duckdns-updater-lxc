@@ -1,0 +1,6 @@
+[Unit]
+Description=DuckDNS daily refresh
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/duckdns-force-update.sh
