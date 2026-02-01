@@ -20,7 +20,7 @@ Minimal, reliable DuckDNS updater designed for Proxmox LXC containers.
 ## Installation
 
 ```bash
-git clone https://github.com/YOURUSERNAME/duckdns-lxc.git
+git clone https://github.com/puhi0210/duckdns-updater-lxc.git
 cd duckdns-lxc
 chmod +x install.sh
 sudo ./install.sh
